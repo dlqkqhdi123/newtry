@@ -1,0 +1,106 @@
+.disContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+.formgrid {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 80px; */
+  border-bottom: 2px solid #d9d9d9;
+  width: 100%;
+  margin: 0 auto;
+}
+.companyTitle {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 2px solid #d9d9d9;
+  width: 600px;
+  margin: 0 auto;
+  /* width: 100%; */
+  /* border: none; */
+  /* outline: none; */
+}
+
+.label {
+  font-weight: 900;
+  /* margin-left: 3rem; */
+  padding: 1.5rem 0;
+  width: 150px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: #f8ebd8;
+  padding: 20px 10px;
+  /* max-width: 80%; */
+  font-size: 16px;
+}
+.containerBox {
+  width: 70%;
+  /* margin: 40px 10rem 40px 40%; */
+  font-family: Pretendard;
+  color: #000000;
+  justify-content: flex-end;
+  flex-direction: column;
+  display: flex;
+}
+.boxbox {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.headhead {
+  align-items: flex-end;
+  justify-content: flex-end;
+  display: flex;
+  padding: 1rem 0;
+  margin: 50px 0;
+}
+.h1 {
+  align-items: end;
+  justify-content: end;
+  display: flex;
+  padding: 1rem 0;
+  margin-right: 1rem;
+}
+.retouch {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.retouch_a {
+  align-items: center;
+  display: flex;
+}
+.reserbationButton {
+  border: none;
+  outline: none;
+  background-color: #f8ebd8;
+}
+.boxbox {
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.retouch {
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+}

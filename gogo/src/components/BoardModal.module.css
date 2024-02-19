@@ -1,0 +1,205 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modalContent {
+  background: #fff;
+  padding: 5px;
+  gap: 1rem;
+}
+
+.modalContainer {
+  width: 1000px;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ff9b50;
+}
+.modalSpan {
+  color: #ff9b50;
+  font-weight: 700;
+  flex-grow: 1;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.closeImg {
+  position: relative;
+  bottom: 3px;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+}
+.modalContent {
+  display: flex;
+}
+
+.modalImgBox,
+.modalContentBox {
+  flex: 1;
+  position: relative;
+}
+
+.modalContentBox {
+  padding: 2rem;
+  /* background-color: tomato; */
+}
+
+.modalImgBox figure {
+  background-color: aliceblue;
+  height: 440px;
+}
+
+.modalContent-title,
+.modalContent-description {
+  margin-bottom: 10px;
+  min-height: 100px;
+}
+
+.modalInput,
+.modalInput2 {
+  padding: 10px;
+  width: 100%;
+  border: none;
+}
+.modalInput:focus,
+.modalInput2:focus {
+  outline: none;
+}
+
+.modalInput {
+  border-bottom: 1px solid #ff9b50;
+}
+
+.modalInput2 {
+  height: 300px;
+  text-align: start;
+  resize: none;
+  border-bottom: 1px solid #ff9b50;
+}
+
+.modalContent-title[contentEditable]:empty::before,
+.modalContent-description[contentEditable]:empty::before {
+  content: attr(placeholder);
+  color: #aaa;
+}
+
+.addImgContainer {
+  background-color: #ff9b50;
+  color: white;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#imageFigure img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.modalChevron {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modalChevron-left {
+  left: 0px;
+  width: 75px;
+  height: 75px;
+}
+
+.modalChevron-right {
+  right: 0px;
+  width: 75px;
+  height: 75px;
+}
+.imageIndicators {
+  display: flex;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 70px;
+}
+
+.imageIndicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.imageIndicator.active {
+  background-color: #ff9b50;
+}
+.boxbox {
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.headhead {
+  align-items: flex-end;
+  justify-content: flex-end;
+  display: flex;
+  padding: 1rem 0;
+  margin: 50px 0;
+}
+.tnwjdtkrwp {
+  display: flex;
+  gap: 10px;
+  justify-self: center;
+  align-items: center;
+}
+.tnwjdtkrwp1 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+.text {
+  width: 300px;
+  height: 200px;
+  border: none;
+  border-style: none;
+}
+.modalButton {
+  border: none;
+  outline: none;
+  background-color: #f8ebd8;
+}
+.modalBorderBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.boardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

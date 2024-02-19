@@ -1,0 +1,29 @@
+.common_table {
+  width: 1000px;
+  /* margin: 100px; */
+  text-align: center;
+  border-spacing: 0;
+  height: 200px;
+}
+
+.common_table_header_column {
+  border-bottom: 2px solid #ff8b50;
+  border-top: 2px solid #ff8b50;
+  padding: 20px 30px;
+  font-weight: bold;
+}
+
+.common_table_row {
+  width: 100%;
+
+  border-bottom: 2px solid #ff8b50;
+}
+
+.common_table_column {
+  height: 80px;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ff8b50;
+}
+.mainBoard {
+  width: 100%;
+}

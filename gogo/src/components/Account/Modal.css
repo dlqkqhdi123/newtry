@@ -1,0 +1,198 @@
+.modal-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  text-align: center;
+}
+
+.modal-content {
+  background: #fff;
+  width: 60%;
+  gap: 1rem;
+}
+
+.modal-container {
+  width: 100%;
+}
+
+.empty-area {
+  width: 25px;
+  height: 25px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff9b50;
+  border-bottom: 1px solid #ff9b50;
+  padding: 0 16px;
+}
+.modal-span {
+  color: #fff;
+  font-weight: 700;
+  flex-grow: 1;
+  text-align: center;
+  padding: 16px 32px;
+}
+
+.close-img {
+  position: relative;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+}
+.modal-content {
+  display: flex;
+}
+
+.modal-imgBox,
+.modal-contentBox {
+  flex: 1;
+  position: relative;
+}
+
+.modal-contentBox {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  /* background-color: tomato; */
+}
+
+.modal-contentBox > * {
+  padding: 16px;
+}
+
+.modal-imgBox figure {
+  background-color: aliceblue;
+  height: 440px;
+}
+
+.modal-content-title,
+.modal-content-description {
+  margin-bottom: 10px;
+  min-height: 100px;
+}
+
+.modal-input,
+.modal-input2 {
+  padding: 10px;
+  width: 100%;
+  border: none;
+}
+.modal-input:focus,
+.modal-input2:focus {
+  outline: none;
+}
+
+.modal-input {
+  border-bottom: 1px solid #ff9b50;
+}
+
+.modal-input2 {
+  height: 300px;
+  text-align: start;
+  resize: none;
+  border-bottom: 1px solid #ff9b50;
+}
+
+.modal-content-title[contentEditable]:empty::before,
+.modal-content-description[contentEditable]:empty::before {
+  content: attr(placeholder);
+  color: #aaa;
+}
+
+.add-img-container {
+  background-color: #ff9b50;
+  color: white;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#imageFigure img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-chevron {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal-chevron-left {
+  left: 0px;
+  width: 75px;
+  height: 75px;
+}
+
+.modal-chevron-right {
+  right: 0px;
+  width: 75px;
+  height: 75px;
+}
+.image-indicators {
+  display: flex;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 70px;
+}
+
+.image-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.image-indicator.active {
+  background-color: #ff9b50;
+}
+
+.find {
+  color: #ff9b50;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.find-pass {
+  border: 2px solid #ff9b50;
+  background-color: #fff;
+  text-decoration: none;
+  color: #ff9b50;
+  width: 50%;
+  padding: 8px 16px;
+  margin: 8px;
+}
+
+.find-pass:hover {
+  background-color: #ff9b50;
+  color: #fff;
+  font-weight: bold;
+}

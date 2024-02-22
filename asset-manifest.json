@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/newtry/static/css/main.6e49a48c.css",
-    "main.js": "/newtry/static/js/main.d3fac05a.js",
+    "main.js": "/newtry/static/js/main.4b5b9570.js",
     "static/media/NotoSansKR-VariableFont_wght.ttf": "/newtry/static/media/NotoSansKR-VariableFont_wght.33752a94ca5252213de8.ttf",
     "static/media/꿀팁_02.png": "/newtry/static/media/꿀팁_02.3798ebb88f2d38657a2a.png",
     "static/media/ESFP.png": "/newtry/static/media/ESFP.5f3cd54097ca7b04897e.png",
@@ -178,10 +178,10 @@
     "static/media/kakao logo_r__FFC26F.svg": "/newtry/static/media/kakao logo_r__FFC26F.83dfcb5f974d69a44b0573c6222f6d3b.svg",
     "static/media/icon-reply.svg": "/newtry/static/media/icon-reply.79b9e4b4dc1621d673dce41a03a16866.svg",
     "main.6e49a48c.css.map": "/newtry/static/css/main.6e49a48c.css.map",
-    "main.d3fac05a.js.map": "/newtry/static/js/main.d3fac05a.js.map"
+    "main.4b5b9570.js.map": "/newtry/static/js/main.4b5b9570.js.map"
   },
   "entrypoints": [
     "static/css/main.6e49a48c.css",
-    "static/js/main.d3fac05a.js"
+    "static/js/main.4b5b9570.js"
   ]
 }

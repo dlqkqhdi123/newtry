@@ -1,0 +1,67 @@
+@font-face {
+  font-family: LibreBaskerville;
+  src: url(../Libre_Baskerville/LibreBaskerville-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: NotoSans;
+  src: url(../Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf) format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+li,
+p,
+h3 {
+  color: var(--text-color);
+  font-family: NotoSans;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 16px;
+  background-color: #f8ebd8;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 16px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.StyleLink-main {
+  position: relative;
+  height: 100px;
+  width: 200px;
+  background-image: url("../assets/icon/button round_1.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  &:hover {
+    background-image: url("../assets/icon/button round_hover.png");
+    font-weight: bold;
+  }
+}
+
+.Inner-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: LibreBaskerville;
+}

@@ -1,0 +1,29 @@
+.ShopContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 2rem 3rem;
+}
+
+.Shopbox {
+  display: grid;
+  /* grid-template-rows: 5fr 1fr 1.5fr 2fr; */
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  margin: 1rem;
+}
+
+.shopImg {
+  width: 190px;
+  height: 150px;
+  background-color: transparent;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0;
+}
+
+.shopPrice {
+  color: #ff9b50;
+  margin-bottom: 5px;
+}

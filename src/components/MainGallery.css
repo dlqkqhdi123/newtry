@@ -1,0 +1,140 @@
+@font-face {
+  font-family: LibreBaskerville;
+  src: url(../Libre_Baskerville/LibreBaskerville-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: NotoSans;
+  src: url(../Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf) format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+:root {
+  --main1-color: #ff9b50;
+  --main2-color: #ffc26f;
+  --background-color: #f8ebd8;
+  --text-color: #1c1b1f;
+  --serve-color1: #666;
+  --serve-color2: #d9d9d9;
+  --serve-color3: #f9f9f9;
+  --serve-color4: #fff;
+  --serve-color5: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+li,
+p,
+h3 {
+  color: var(--text-color);
+  font-family: NotoSans;
+}
+
+.Container-gallery {
+  width: 100%;
+  height: 1480px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.context {
+  margin-top: 56px;
+  position: relative;
+  z-index: 1;
+}
+
+.context h3 {
+  font-size: 2.5rem;
+  font-family: LibreBaskerville;
+  text-align: center;
+}
+
+.Gallery {
+  width: 100%;
+  height: 100%;
+}
+
+.Community {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  z-index: 99;
+}
+
+.Community > :nth-child(1) {
+  position: absolute;
+  left: -20%;
+  top: 5%;
+}
+
+.Community > :nth-child(2) {
+  position: absolute;
+  left: 20%;
+  top: 35%;
+}
+
+.Community > :nth-child(3) {
+  position: absolute;
+  left: -20%;
+  top: 55%;
+}
+
+.Gallery-img-back {
+  background-image: url("../assets/source/patten.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.StyleLink-Gallery {
+  z-index: 99;
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../assets/icon/button round_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  &:hover {
+    background-image: url("../assets/icon/button round_hover.png");
+    font-weight: bold;
+  }
+}
+
+.Inner-Gallery {
+  z-index: 99;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: LibreBaskerville;
+  &:hover {
+    font-family: LibreBaskerville;
+    font-weight: bold;
+  }
+}

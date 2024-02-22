@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "label": "고구마 져키 50g (6개입)",
+    "alt": "pointshop_01",
+    "price": "15,000냥",
+    "imgaes":"https://firebasestorage.googleapis.com/v0/b/hospetalbackup.appspot.com/o/images%2Fpointshop_01.png?alt=media&token=f7105798-02a3-4abf-9a09-4e7c583d4dd8"
+  },
+  {
+    "id": 2,
+    "label": "산양유 스틱 50g (6개입)",
+    "alt": "pointshop_02",
+    "price": "12,000냥",
+    "imgaes":"https://firebasestorage.googleapis.com/v0/b/hospetalbackup.appspot.com/o/images%2Fpointshop_02.png?alt=media&token=578c67d6-0971-4bae-a14e-09e5676e9c80"
+  },
+  {
+    "id": 3,
+    "label": "냥냥 참치캔 85g (3캔)",
+    "alt": "pointshop_04",
+    "price": "15,000냥",
+    "btn": "교환하기",
+    "imgaes":"https://firebasestorage.googleapis.com/v0/b/hospetalbackup.appspot.com/o/images%2Fpointshop_04.png?alt=media&token=9d4a82ff-1ef1-470d-b86b-1dbd1f0c70aa"
+  },
+  {
+    "id": 4,
+    "label": "고구마 져키 50g (6개입)",
+    "alt": "pointshop_03",
+    "price": "15,000냥",
+    "imgaes":"https://firebasestorage.googleapis.com/v0/b/hospetalbackup.appspot.com/o/images%2Fpointshop_03.png?alt=media&token=02c8cbe6-0585-4b1f-bceb-428109f8579a"
+  },
+  {
+    "id": 5,
+    "label": "배밴 패드",
+    "alt": "pointshop_05",
+    "price": "25,000냥",
+    "imgaes":"https://firebasestorage.googleapis.com/v0/b/hospetalbackup.appspot.com/o/images%2Fpointshop_05.png?alt=media&token=c28a1d56-93a0-4dc2-9ba9-8eb7920e6a62"
+  },
+  {
+    "id": 6,
+    "label": "고양이 모래",
+    "alt": "pointshop_07",
+    "price": "25,000냥",
+    "imgaes":"https://firebasestorage.googleapis.com/v0/b/hospetalbackup.appspot.com/o/images%2Fpointshop_07.png?alt=media&token=e312d909-17e9-4048-b2eb-6abf859cd41d"
+  },
+  {
+    "id": 7,
+    "label": "고구마 져키 50g (6개입)",
+    "alt": "pointshop_06",
+    "price": "15,000냥",
+    "imgaes":"https://firebasestorage.googleapis.com/v0/b/hospetalbackup.appspot.com/o/images%2Fpointshop_06.png?alt=media&token=3faa698b-2053-4a21-a0f8-e0617f3593ea"
+  },
+  {
+    "id": 8,
+    "label": "고구마 져키 50g (6개입)",
+    "alt": "pointshop_08",
+    "price": "15,000냥",
+    "imgaes":"https://firebasestorage.googleapis.com/v0/b/hospetalbackup.appspot.com/o/images%2Fpointshop_08.png?alt=media&token=7514af64-2f90-4ad1-87fa-ea4b2a6bdc9a"
+  }
+]

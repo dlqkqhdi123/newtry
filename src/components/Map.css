@@ -1,0 +1,157 @@
+:root {
+  --mainColor: #ff9b50;
+  --subColor: #ffc26f;
+  --backgroundColor: #f8ebd8;
+  --fontColor: #1c1b1f;
+}
+
+.wrap {
+  position: absolute;
+  left: 75px;
+  bottom: -80px;
+  width: 288px;
+  height: 132px;
+  margin-left: -144px;
+  text-align: left;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+.wrap * {
+  padding: 0;
+}
+.wrap .mapInfo {
+  width: 286px;
+  height: 75px;
+  border-radius: 5px;
+  border-bottom: 2px solid #ccc;
+  border-right: 1px solid #ccc;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.wrap .mapInfo:nth-child(1) {
+  border: 0;
+  box-shadow: 0px 1px 2px #888;
+}
+.mapInfo .title {
+  padding: 5px 10px;
+  height: 30px;
+  width: 100%;
+  background: #eee;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mapInfo .close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  color: #888;
+  width: 17px;
+  height: 17px;
+  background: url("../../src/assets/overlay_close.png");
+}
+.mapInfo .close:hover {
+  cursor: pointer;
+}
+.mapInfo .body {
+  position: relative;
+  overflow: hidden;
+}
+.mapInfo .desc {
+  position: relative;
+  height: 50px;
+}
+.desc .ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.desc .jibun {
+  font-size: 11px;
+  color: #888;
+  margin-top: -2px;
+}
+.mapInfo .img {
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  width: 73px;
+  height: 71px;
+  border: 1px solid #ddd;
+  color: #888;
+  overflow: hidden;
+}
+.mapInfo:after {
+  content: "";
+  position: absolute;
+  margin-left: -12px;
+  left: 50%;
+  bottom: 45px;
+  width: 22px;
+  height: 12px;
+  background: url("../assets/vertex_white.png");
+}
+.mapInfo .link {
+  color: #5085bb;
+}
+
+.mapBtn {
+  padding: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  border: none;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#zoomInButton {
+  background-color: black;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+#zoomInButton:hover {
+  background-color: var(--mainColor);
+  color: white;
+}
+
+#zoomOutButton {
+  background-color: black;
+  color: white;
+}
+
+#zoomOutButton:hover {
+  background-color: var(--mainColor);
+  color: white;
+}
+
+.mapContainer {
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+.mapBtnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+  top: 100px;
+  z-index: 999;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}

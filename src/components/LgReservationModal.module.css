@@ -1,0 +1,207 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modalContent {
+  background: #fff;
+  /* padding: 5px; */
+  gap: 2rem;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 1px solid #ff9b50; */
+  background-color: #ffc26f;
+  margin: 0;
+  height: 50px;
+}
+
+.closeImg {
+  position: relative;
+  bottom: 3px;
+  left: -10px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  fill: #fff;
+}
+
+.modalImgBox,
+.modalContentBox {
+  flex: 1;
+  position: relative;
+}
+
+.modalContentBox {
+  padding: 2rem;
+  /* background-color: tomato; */
+}
+
+.modalImgBox figure {
+  background-color: aliceblue;
+  height: 440px;
+}
+
+.modalContentTitle,
+.modalContent-description {
+  margin-bottom: 10px;
+  min-height: 100px;
+}
+
+.modalInput,
+.modalInput2 {
+  padding: 10px;
+  width: 100%;
+  border: none;
+}
+.modalInput:focus,
+.modalInput2:focus {
+  outline: none;
+}
+.LgModalSpan {
+  color: #fff;
+  font-weight: 700;
+  flex-grow: 1;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.modalInput {
+  border-bottom: 1px solid #ff9b50;
+}
+.LgModalBoxContainer {
+  /* background-color: red; */
+  /* margin: 10px; */
+}
+.modalInput2 {
+  height: 300px;
+  text-align: start;
+  resize: none;
+  border-bottom: 1px solid #ff9b50;
+}
+
+.modalContentTitle[contentEditable]:empty::before,
+.modalContentDescription[contentEditable]:empty::before {
+  content: attr(placeholder);
+  color: #aaa;
+}
+
+.addImgContainer {
+  background-color: #ff9b50;
+  color: white;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#imageFigure img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.modalChevron {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modalChevronLeft {
+  left: 0px;
+  width: 75px;
+  height: 75px;
+}
+
+.modalChevronRight {
+  right: 0px;
+  width: 75px;
+  height: 75px;
+}
+.imageIndicators {
+  display: flex;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 70px;
+}
+
+.imageIndicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.imageIndicator.active {
+  background-color: #ff9b50;
+}
+.tnwjdtkrwp {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.divLabel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 2px solid red;
+  width: 600px;
+  margin: 0 auto;
+}
+.reservationInput {
+  border: none;
+  outline: none;
+}
+.reservationLabel {
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+}
+.reservationForm {
+  display: flex;
+  justify-content: flex-start;
+}
+.LgModalContainer {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 1rem;
+}
+.LgModalLabel {
+  font-weight: 600;
+  margin-left: 3rem;
+}
+.LgModalText {
+  margin: 0 0 0 4rem;
+  text-align: start;
+}
+.LgBookingList {
+  width: 100%;
+  display: grid;
+}
+.bookingList {
+  width: 100%;
+}

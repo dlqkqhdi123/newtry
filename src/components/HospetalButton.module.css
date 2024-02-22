@@ -1,0 +1,102 @@
+:root {
+  --mainColor: #ff9b50;
+  --subColor: #ffc26f;
+  --backgroundColor: #f8ebd8;
+  --fontColor: #1c1b1f;
+}
+
+.ReviewBtn {
+  width: fit-content;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.ReviewBtn:hover {
+  cursor: pointer;
+  color: #ff9b50;
+}
+
+.ReservationBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  padding: 5px 0;
+  background-color: transparent;
+  color: var(--mainColor) !important;
+  border: 1px solid var(--mainColor);
+  font-size: 14px;
+}
+
+.ReservationBtn > a {
+  text-decoration: none;
+  color: var(--mainColor) !important;
+}
+
+.ReservationBtn:hover {
+  background-color: #ff9b50 !important;
+  color: white !important;
+}
+.ReservationBtn2:hover {
+  background-color: #ff9b50 !important;
+  color: white;
+}
+
+.ReservationBtn:hover .link {
+  color: white !important;
+}
+
+.link {
+  color: var(--mainColor);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemBtn {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--mainColor);
+  color: var(--mainColor);
+  border: 1px solid var(--mainColor);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.itemBtnActive {
+  width: 120px;
+  height: 40px;
+  color: var(--mainColor);
+  border: 1px solid var(--mainColor);
+  cursor: pointer;
+  font-size: 14px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.itemBtn:hover {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.chatBtn {
+  background-color: var(--mainColor);
+  color: white;
+  border: none;
+  padding: 5px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  gap: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.chatBtn:hover {
+  background-color: black;
+}

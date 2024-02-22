@@ -1,0 +1,106 @@
+@font-face {
+  font-family: LibreBaskerville;
+  src: url(../Libre_Baskerville/LibreBaskerville-Regular.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: NotoSans;
+  src: url(../Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf) format("truetype");
+  font-display: swap;
+}
+
+.footer {
+  padding: 1rem;
+  color: white;
+  background-color: #000;
+  margin-top: auto;
+  height: 300px;
+  z-index: 2;
+}
+
+.links {
+  padding: 0;
+  color: #c4c4c4;
+  list-style: none;
+  font-family: LibreBaskerville;
+  font-size: 32px;
+  text-align: start;
+}
+.customer-service {
+  text-decoration: none;
+  color: white;
+  font-family: NotoSans;
+}
+.terms {
+  text-decoration: none;
+  color: white;
+  font-family: NotoSans;
+  font-size: 16px;
+  margin-left: 600px;
+  margin-right: 16px;
+}
+.privacy {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-family: NotoSans;
+}
+.about {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  width: 150px;
+}
+
+.customer-service:hover,
+.about:hover {
+  color: #ccc7bb;
+}
+
+.links > * {
+  display: inline;
+  line-height: 1.64;
+}
+
+.links > :not(:last-child) {
+  margin-right: 30px;
+}
+
+.info {
+  padding: 0;
+  list-style: none;
+  font-family: NotoSans;
+}
+
+.info > * {
+  display: inline-block;
+  line-height: 1.64;
+}
+
+.info > :not(:last-child) {
+  margin-right: 30px;
+}
+
+.footer-img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (min-width: 1236px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  .terms {
+    margin-left: auto;
+    font-size: 16px;
+  }
+
+  .privacy {
+    font-size: 16px;
+  }
+}

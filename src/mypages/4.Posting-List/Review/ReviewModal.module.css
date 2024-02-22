@@ -1,0 +1,63 @@
+.ReviewModalheader {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  color: #ffc26f;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  border-bottom: 2px solid #ffc26f;
+}
+
+.ReviewModalbody {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 4rem 4rem 4rem;
+  display: grid;
+  grid-template-rows: 1.5fr 2fr 2fr 0.5fr;
+  row-gap: 1rem;
+  /* justify-content: center; */
+}
+
+.StarRating {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1rem;
+}
+
+.score {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.num {
+  font-size: 20pt;
+  color: #ffc26f;
+}
+
+.Comment {
+}
+
+.note {
+  width: 100%;
+  height: 80%;
+  border: 1px solid #d9d9d9;
+  outline: none;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.CommentPoto {
+  display: grid;
+  grid-template-rows: 0.5fr 5fr;
+}
+
+.picture {
+  font-size: 14px;
+  font-weight: 900;
+}

@@ -1,0 +1,34 @@
+.disContainer {
+  width: 100%;
+  margin: 100px;
+}
+
+.companyTitle {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #d9d9d9;
+}
+input {
+  border: none;
+  outline: none;
+  background-color: none;
+  padding: 20px 10px;
+}
+.containerBox {
+  width: 70%;
+  margin: 40px 10rem 40px 40%;
+  /* background-color: #f8ebd8; */
+  font-family: Pretendard;
+  color: #000000;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}

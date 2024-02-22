@@ -1,0 +1,116 @@
+@font-face {
+  font-family: LibreBaskerville;
+  src: url(../Libre_Baskerville/LibreBaskerville-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: NotoSans;
+  src: url(../Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf) format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+* {
+  /* color: var(--fontColor); */
+  text-decoration: none;
+}
+
+:root {
+  --mainColor: #ff9b50;
+  --subColor: #ffc26f;
+  --backgroundColor: #f8ebd8;
+  /* --fontColor: #1c1b1f; */
+}
+
+.hospitalListContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: NotoSans;
+}
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.searchContainer {
+  position: relative;
+  width: 400px;
+}
+
+.searchInput {
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  border: 2px solid var(--mainColor);
+}
+
+.searchInput:focus {
+  outline: #ff9b50;
+  border: 2px solid var(--mainColor);
+}
+
+.searchBtn {
+  position: absolute;
+  right: 0;
+  top: 3px;
+  background-color: transparent;
+  border: 2px solid var(--mainColor);
+  cursor: pointer;
+  border: none;
+}
+
+.searchBtn:active {
+  background-color: var(--mainColor);
+}
+
+.searchIcon {
+  width: 30px;
+  position: relative;
+  top: 10px;
+}
+
+.btnContainer {
+  width: 1120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnFilter {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 10px 48px;
+  background-color: transparent;
+  color: var(--mainColor);
+  border: 1px solid var(--mainColor);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: var(--mainColor);
+  color: white;
+}
+
+.link {
+  color: white !important;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemContainer {
+  width: 1120px;
+  padding-top: 4rem;
+  padding-bottom: 16rem;
+}

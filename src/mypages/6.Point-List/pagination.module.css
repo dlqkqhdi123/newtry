@@ -1,0 +1,37 @@
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 5rem 1rem;
+}
+
+.button{
+  border: 1px solid #d9d9d9;
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+
+  &:hover {
+    background-color: #ff9b50;
+    color: white;
+    cursor: pointer;
+    transform: translateY(-2px);
+  }
+
+  &[disabled] {
+    background-color: grey;
+    cursor: revert;
+    transform: revert;
+  }
+
+  &[aria-current] {
+    background-color: #ff9b50;
+    color: white;
+    cursor: revert;
+    transform: revert;
+  }
+}

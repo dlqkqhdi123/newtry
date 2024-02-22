@@ -1,0 +1,15 @@
+.RatingInput {
+    cursor: pointer;
+  }
+  
+  .Rating-star {
+    color: #d9d9d9;     
+    font-size:30px ;  
+  }
+  
+  .Rating-star.selected {
+    color: #ffc26f;
+  }
+  
+
+ 

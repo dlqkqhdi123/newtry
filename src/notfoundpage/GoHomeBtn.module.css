@@ -1,0 +1,38 @@
+.button {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  width: 16rem;
+  height: 8rem;
+  margin: 1rem;
+}
+
+.icon {
+  background-image: url(../assets/button\ round_1.svg);
+  width: 100%;
+  height: inherit;
+  background-size: auto;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.icon:hover,
+.icon:active {
+  background-image: url(../assets/button\ round_hover.svg);
+}
+
+.h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 3rem 0;
+  font-size: 20px;
+}

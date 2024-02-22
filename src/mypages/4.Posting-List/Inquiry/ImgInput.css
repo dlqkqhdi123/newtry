@@ -1,0 +1,29 @@
+.ImgInput{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #d9d9d9;
+    overflow: hidden;
+}
+
+.ImgInput-preview{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.ImgInput-preview.selected{
+    opacity: 0.48;
+}
+
+.ImgInput-hidden-overlay{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}

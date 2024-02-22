@@ -1,0 +1,117 @@
+@font-face {
+  font-family: LibreBaskerville;
+  src: url(../Libre_Baskerville/LibreBaskerville-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: NotoSans;
+  src: url(../Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf) format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+:root {
+  --main1-color: #ff9b50;
+  --main2-color: #ffc26f;
+  --background-color: #f8ebd8;
+  --text-color: #1c1b1f;
+  --serve-color1: #666;
+  --serve-color2: #d9d9d9;
+  --serve-color3: #f9f9f9;
+  --serve-color4: #fff;
+  --serve-color5: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+li,
+p,
+h3 {
+  color: var(--text-color);
+  font-family: NotoSans;
+}
+
+.container-about-three {
+  width: 100%;
+  height: 35%;
+  padding: 0;
+  margin-top: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.content-item {
+  width: 500px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-item-one {
+  margin-bottom: 20px;
+}
+.content-item-two {
+  margin-bottom: 60px;
+}
+
+.content-item-one,
+.content-item-two {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* animation: move 10s linear infinite; */
+}
+
+.content-item-one {
+  animation: move 15s linear infinite;
+  transition: opacity 5s linear;
+}
+.content-item-two {
+  animation: move 15s linear infinite;
+  animation-delay: 3s;
+  transition: opacity 5s linear;
+}
+
+.content-item p {
+  display: inline-block;
+  font-size: 54px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-family: LibreBaskerville;
+  white-space: nowrap;
+}
+
+.content-item-one img,
+.content-item-two img,
+.content-item-one p,
+.content-item-two p {
+  margin: 0;
+}
+
+.hotdog-front,
+.hotdog-back {
+  width: 150px;
+  height: 150px;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}

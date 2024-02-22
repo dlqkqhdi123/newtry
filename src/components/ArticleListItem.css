@@ -1,0 +1,159 @@
+.article-body-inner-list {
+  overflow: hidden;
+  margin-bottom: 40px;
+  width: 70%;
+  height: auto;
+  cursor: pointer;
+}
+
+.article-body-inner-list figure {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+}
+.article-body-inner-list figure > img {
+  width: 440px;
+  height: 440px;
+}
+
+.article-body-inner-list.even {
+  float: left;
+  clear: left;
+  width: 445px;
+  margin-left: 200px;
+  margin-top: 60px;
+}
+.article-body-inner-list.odd {
+  float: right;
+  clear: right;
+  width: 445px;
+  margin-right: 200px;
+  margin-top: 60px;
+}
+
+.article-body-inner-list.odd:nth-child(3) {
+  margin-top: 280px;
+}
+
+.article-body-inner-list.odd:last-child {
+  margin-bottom: 270px;
+}
+.modaldata-title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-weight: 700;
+}
+.modaldata-title-icon {
+  width: 20px;
+  height: 20px;
+}
+.modaldata-desc {
+  display: flex;
+}
+.modaldata-desc-wrapper {
+  width: 100%;
+}
+.modaldata-desc-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.modaldata-nickname {
+  margin-right: auto;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.likeCount {
+  position: relative;
+  margin-left: 4px;
+  bottom: 4px;
+  font-weight: 400;
+}
+.commentCount {
+  position: relative;
+  margin-left: 7px;
+  bottom: 4px;
+  font-weight: 400;
+}
+
+.profile {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  bottom: -1px;
+  left: -2px;
+}
+.likeCounts {
+  display: flex;
+}
+.Icon-wrapper {
+  position: relative;
+  right: 12px;
+}
+.Icon-wrappers {
+  position: relative;
+  right: 4px;
+}
+
+@media (max-width: 1733px) {
+  .article-body-inner-list {
+    width: 100%;
+    margin: 30px auto;
+  }
+
+  .article-body-inner-list {
+    width: 50%;
+    float: none;
+    clear: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .article-body-inner-list.even,
+  .article-body-inner-list.odd {
+    width: 445px;
+    margin: 30px auto;
+  }
+
+  .article-body-inner-list.odd:nth-child(3) {
+    margin-top: 30px;
+  }
+
+  .article-body-inner-list.odd:last-child {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 500px) and (max-width: 1728px) {
+  .write {
+    right: 0;
+  }
+  .article-body-inner-list {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .article-body-inner-list.even,
+  .article-body-inner-list.odd {
+    width: 445px;
+    margin: 30px auto;
+  }
+  .article-body-inner-list {
+    width: 50%;
+    float: none;
+    clear: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .modaldata-title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  .modaldata-title-icon {
+    width: 20px;
+    height: 20px;
+  }
+}

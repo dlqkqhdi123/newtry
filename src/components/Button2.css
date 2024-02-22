@@ -1,0 +1,44 @@
+.bottom-button {
+  text-align: center;
+}
+
+.button {
+  outline: none;
+  border: 1px solid #ffc26f;
+  color: #ffc26f;
+  background-color: transparent;
+  padding: 10px 20px;
+  width: 140px;
+  height: 50px;
+  margin-bottom: 32px;
+}
+.button-wrap {
+  position: relative;
+  margin-right: 18px;
+}
+.button-wrap img {
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: -10px;
+}
+.button-wrap img.hover-image {
+  display: none;
+  width: 25px;
+  height: 25px;
+  margin-right: -2px;
+  margin-top: -3px;
+}
+
+.button:hover {
+  background-color: #ff9b50;
+  color: #fff;
+}
+.button:hover img {
+  display: none;
+}
+.button:hover img.hover-image {
+  display: inline;
+}

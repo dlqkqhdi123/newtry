@@ -1,0 +1,195 @@
+@font-face {
+  font-family: LibreBaskerville;
+  src: url(../Libre_Baskerville/LibreBaskerville-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: NotoSans;
+  src: url(../Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf) format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+:root {
+  --mainColor: #ff9b50;
+  --subColor: #ffc26f;
+  --backgroundColor: #f8ebd8;
+  --fontColor: #1c1b1f;
+}
+
+* {
+  /* font-family: NotoSans; */
+  padding: 0;
+  margin: 0;
+  /* color: var(--fontColor); */
+}
+
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10rem;
+}
+
+.pageTitle {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.addWrapper {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.addWrapper p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.mapIcon {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+.contentWrapper {
+  margin: 5rem auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+.content span {
+  width: 50px;
+  color: var(--mainColor);
+}
+
+.contentLine {
+  width: 1120px;
+  height: 2px;
+  background-color: var(--mainColor);
+}
+.contentLine2 {
+  width: 1120px;
+  height: 2px;
+  background-color: var(--subColor);
+}
+
+.reviewTitle {
+  padding: 16px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.chartWrapper {
+  padding: 3rem 0;
+}
+
+.ratingWrapper {
+  width: 1120px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rating {
+  font-size: 50px;
+  margin-top: 1rem;
+  pointer-events: none;
+  display: inline;
+}
+
+.btnWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.img {
+  width: 50px;
+}
+
+.review {
+  padding: 28px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 1rem;
+  border-bottom: 2px solid var(--subColor);
+}
+
+.review h3 {
+  text-align: start;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.reviewContainer {
+  width: 100%;
+  max-width: 1120px;
+  height: 100%;
+  position: relative;
+}
+
+.moreBtn {
+  background-color: var(--mainColor);
+  color: white;
+  position: absolute;
+  right: 0;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.moreBtn:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.ReservationBtnWrapper {
+  margin-top: 100px;
+}
+
+.ReservationBtn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 10px 0;
+  background-color: transparent;
+  color: var(--mainColor);
+  border: 1px solid var(--mainColor);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* .reviewContainer {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  margin: 30px auto 100px;
+  position: relative;
+} */

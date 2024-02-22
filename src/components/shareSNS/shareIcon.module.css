@@ -1,0 +1,9 @@
+.facebook__icon,
+.twitter__icon,
+.kakao__icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 0.5rem 0 0.5rem;
+  cursor: pointer;
+  color: #ffc26f;
+}

@@ -1,0 +1,42 @@
+.spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f8ebd8;
+  opacity: 0;
+  width: 100vw;
+  transition: opacity 0.3s ease;
+  cursor: none;
+  animation-name: spinner;
+  animation-duration: 3s;
+  animation-delay: 1.7s;
+  animation-timing-function: ease;
+  animation-direction: normal;
+  z-index: 500;
+}
+
+.spinner.open {
+  opacity: 1;
+}
+
+.inner {
+  width: 1000px;
+  height: 1080px;
+  transform: translateX(50%);
+}
+
+@keyframes spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -800%);
+  }
+}
+
+@media (max-width: 1024px) {
+  .inner {
+    transform: translateX(0%);
+  }
+}

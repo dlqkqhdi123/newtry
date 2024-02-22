@@ -1,0 +1,79 @@
+@font-face {
+  font-family: LibreBaskerville;
+  src: url(../Libre_Baskerville/LibreBaskerville-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: NotoSans;
+  src: url(../Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf) format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+:root {
+  --main1-color: #ff9b50;
+  --main2-color: #ffc26f;
+  --background-color: #f8ebd8;
+  --text-color: #1c1b1f;
+  --serve-color1: #666;
+  --serve-color2: #d9d9d9;
+  --serve-color3: #f9f9f9;
+  --serve-color4: #fff;
+  --serve-color5: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+li,
+p,
+h3 {
+  color: var(--text-color);
+  font-family: NotoSans;
+}
+
+.Container-about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.Container-about img {
+  width: 100vw;
+  height: 640px;
+  /* object-fit: cover; */
+  object-fit: contain;
+}
+
+.context-about-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  margin-top: 100px;
+}
+
+.context-about-top h3 {
+  font-size: 2.5rem;
+  font-family: LibreBaskerville;
+  letter-spacing: 6px;
+  font-weight: 700;
+}
+
+.context-about-top p {
+  font-size: 16px;
+  margin: 20px;
+  line-height: 1.8;
+}

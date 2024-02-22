@@ -1,0 +1,43 @@
+:root {
+  --mainColor: #ff9b50;
+  --subColor: #ffc26f;
+  --backgroundColor: #f8ebd8;
+  --fontColor: #1c1b1f;
+}
+
+.container2 {
+  width: 70%;
+  margin-left: 450px;
+  margin-right: 200px;
+  background-color: #f8ebd8;
+  font-family: Pretendard;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  padding: 1rem;
+  padding-bottom: 20%;
+}
+
+.containerBox2 {
+  /* width: 100%; */
+  margin: 40px 10rem 40px 40%;
+  /* background-color: #f8ebd8; */
+  font-family: Pretendard;
+  color: #000000;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+/* 캐러셀-슬라이드 */
+/* ////////라인/////// */
+
+.line {
+  border-bottom: 3px solid #ff9b50;
+  width: 100%;
+}
+
+/* ///////프로필/////// */

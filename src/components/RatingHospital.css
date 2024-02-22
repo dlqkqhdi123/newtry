@@ -1,0 +1,15 @@
+:root {
+  --mainColor: #ff9b50;
+  --subColor: #ffc26f;
+  --backgroundColor: #f8ebd8;
+  --fontColor: #1c1b1f;
+}
+
+.RatingStar {
+  color: #d9d9d9;
+  cursor: pointer;
+}
+
+.RatingStar.selected {
+  color: var(--mainColor);
+}

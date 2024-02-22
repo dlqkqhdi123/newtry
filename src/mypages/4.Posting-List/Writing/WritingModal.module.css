@@ -1,0 +1,92 @@
+.writingbody {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+.potoSlide {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.post {
+  height: 100%;
+  padding: 3rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-rows: 6fr 1fr;
+}
+
+/* ////////// */
+.wordtext {
+  display: grid;
+  grid-template-rows: 0.5fr 2.5fr 1fr;
+}
+
+.head {
+  display: grid;
+  grid-template-columns: auto 10fr 1fr 1fr;
+  gap: 10px;
+  padding-bottom: 2rem;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.figure {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+  background-color: #d9d9d9;
+  margin: 0;
+}
+.ico {
+  display: flex;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 10px;
+  padding-right: 3px;
+}
+
+/* ////내용//// */
+.wordBox {
+  border-top: 2px solid #ff9b50;
+  border-bottom: 2px solid #ff9b50;
+  padding: 1.5rem 0;
+  display: grid;
+}
+.wordTitle {
+  display: grid;
+  grid-template-columns: 8fr 1.5fr;
+  justify-content: space-between;
+}
+
+.title_p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.date {
+  font-size: 12px;
+  color: #666;  
+  white-space: nowrap;
+}
+
+.word_p {
+  padding-top: 10px;
+}
+
+/* /////다음///// */
+.next {
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: auto 10fr auto;
+  gap: 10px;
+  align-items: center;
+}

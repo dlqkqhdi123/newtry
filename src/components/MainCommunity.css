@@ -1,0 +1,105 @@
+@font-face {
+  font-family: LibreBaskerville;
+  src: url(../Libre_Baskerville/LibreBaskerville-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: NotoSans;
+  src: url(../Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf) format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+:root {
+  --main1-color: #ff9b50;
+  --main2-color: #ffc26f;
+  --background-color: #f8ebd8;
+  --text-color: #1c1b1f;
+  --serve-color1: #666;
+  --serve-color2: #d9d9d9;
+  --serve-color3: #f9f9f9;
+  --serve-color4: #fff;
+  --serve-color5: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+li,
+p,
+h3 {
+  color: var(--text-color);
+  font-family: NotoSans;
+}
+
+.Community-item {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  z-index: 99;
+  position: absolute;
+}
+
+.Community-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.Community-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.Community-context {
+  margin-top: 5px;
+  width: 100%;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  width: 100%;
+  height: auto;
+}
+
+.Community-context-1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Community-context-in {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 25px;
+}
+
+.Community-context-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.in-profile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 10px;
+}

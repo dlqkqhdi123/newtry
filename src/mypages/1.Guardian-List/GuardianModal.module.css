@@ -1,0 +1,48 @@
+.secession_box {
+  width: 60rem;
+  height: 40rem;
+  background-color: white;
+  z-index: 999;  
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.secession_header {
+    width: 100%;
+    height: 50px;
+    background-color: #ff9b50;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.secession_body {
+    display: grid;
+    row-gap: 1.5rem;
+    grid-template-rows: 1fr;
+    grid-template-columns: 40%;
+    justify-content: center;
+    justify-items: center;
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+    background-color: #d9d9d9;
+}
+
+.p{
+    width: 70%;
+    margin: 7px;
+    text-align: center;
+}
+
+

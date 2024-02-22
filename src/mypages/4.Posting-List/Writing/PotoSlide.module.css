@@ -1,0 +1,83 @@
+  
+  .carousel {    
+    width: 476px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+
+  .petPopol {
+    width: 476px;
+    height: inherit;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    background-color: #d9d9d9;
+    padding: 2rem 3rem;
+    /* margin: 3rem 1rem; */
+  }
+
+  /* /////버튼///////// */
+  .prevBtn {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 100%;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .nextBtn {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 100%;
+    background-color: transparent;
+    border: none;
+  }
+  
+
+  /* /////하단///// */
+  .pagination{
+    position: absolute;
+    width: 100%;
+    display: flex;    
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    bottom: 2rem;
+  }
+  
+  .won{
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 1.2rem;
+    background-color: white;
+  }
+
+  .opacityA{
+    background-color: #ffc26f;
+  }
+
+  .opacityB{
+    background-color: white;
+  }
+  

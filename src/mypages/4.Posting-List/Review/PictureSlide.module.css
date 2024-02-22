@@ -1,0 +1,82 @@
+.commentSlide {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel {
+  width: 580px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* ////////// */
+
+.carousel.pets-four-or-more {
+  justify-content: flex-start;
+  /* 개수가 4개 이상인 경우 왼쪽 정렬 */
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.petPopol {
+  width: 126px;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d9d9;
+  margin: 0rem 1rem;
+  background-size: cover;
+}
+
+/* .images {
+  width: 126px;
+  height: 84px;
+  object-fit: cover;
+} */
+
+.retouch {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* /////버튼///////// */
+.prevBtn {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 100%; */
+  background-color: transparent;
+  border: none;
+}
+
+.nextBtn {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 100%; */
+  background-color: transparent;
+  border: none;
+}
+
+/* /////하단///// */

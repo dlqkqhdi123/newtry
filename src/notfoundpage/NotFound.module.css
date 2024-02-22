@@ -1,0 +1,74 @@
+.notFound {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  margin: 4rem;
+}
+
+.h1 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 1.5rem 0;
+}
+
+/* find */
+.find {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  margin-bottom: 3rem;
+  gap: 3rem;
+}
+
+.h2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.find > figure {
+  max-width: 500px;
+  max-height: 330px;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.animal,
+.search {
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.infoBox {
+  width: 100%;
+  display: grid;
+  padding: 2rem 0;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.label {
+  font-weight: 600;
+  margin-left: 3rem;
+  padding: 1.5rem 0;
+}
+
+.animalInfo {
+  margin: 0rem;
+  padding: 1.5rem 0;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "checkbox": "checkbox",
+    "no": 1,
+    "witer": "강자자",
+    "title": "애기 장난감이 너무 맘에 드는데 혹시 어디서 구매하셨나요?",
+    "content": "첫번째 게시글 내용입니다.",
+    "createDate": "2020-10-25"
+  },
+  {
+    "checkbox": "checkbox",
+    "no": 2,
+    "witer": "동동",
+    "title": "애기 장난감이 너무 맘에 드는데?",
+    "content": "두번째 게시글 내용입니다.",
+    "createDate": "2020-11-25"
+  },
+  {
+    "checkbox": "checkbox",
+    "no": 3,
+    "witer": "두두",
+    "title": "혹시 어디서 구매하셨나요?",
+    "content": "세번째 게시글 내용입니다.",
+    "createDate": "2020-12-25"
+  }
+]

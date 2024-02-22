@@ -1,0 +1,18 @@
+.stars{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+}
+
+.stars i:not(.active){
+    font-size: 40px;
+    color: #bbb;
+}
+
+.active{
+    font-size: 40px;
+    color: #ff9c1a;
+
+}
+
+/* ////////// */

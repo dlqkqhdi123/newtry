@@ -1,0 +1,119 @@
+:root {
+  --mainColor: #ff9b50;
+  --subColor: #ffc26f;
+  --backgroundColor: #f8ebd8;
+  --fontColor: #1c1b1f;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.select {
+  width: 54%;
+  border: 1px solid (--backgroundColor);
+}
+
+.modalContent {
+  width: 600px;
+  height: 500px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: 2rem;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--subColor);
+  padding-top: 10px;
+}
+
+.title {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+
+.title p {
+  font-weight: 100;
+  font-size: 14px;
+  color: var(--mainColor);
+}
+
+.closeButton {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.closeIcon {
+  width: 30px;
+}
+
+.form {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formItem select {
+  width: 54%;
+  padding: 5px;
+  margin: 0;
+  border: 1px solid (--backgroundColor);
+}
+
+.formItem input {
+  margin: 0;
+  outline: none;
+  border: 1px solid #d9d9d9;
+}
+
+.label {
+  width: 150px;
+}
+
+.form button {
+  margin-top: 2rem;
+  padding: 10px 80px;
+  background-color: transparent;
+  border: 1px solid var(--subColor);
+  color: var(--subColor);
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: var(--subColor);
+  color: white;
+}

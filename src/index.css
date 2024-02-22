@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "LibreBaskerville-Bold";
+  src: url("./Libre_Baskerville/LibreBaskerville-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "LibreBaskerville-Italic";
+  src: url("./Libre_Baskerville/LibreBaskerville-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "LibreBaskerville-Regular";
+  src: url("./Libre_Baskerville/LibreBaskerville-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url("./Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: "LibreBaskerville-Bold", "LibreBaskerville-Italic",
+    "LibreBaskerville-Regular", "Noto Sans KR", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+html,
+body > * {
+  cursor: url("./assets/mouse_dog.png") 20 30, auto;
+}
+
+body:active > * {
+  cursor: url("./assets/mouse_dog_after.png") 20 30, auto;
+}
+
+button,
+input,
+a,
+select,
+option,
+textarea,
+table > *,
+label {
+  cursor: url("./assets/mouse_dog.png") 20 30, auto;
+}
+
+button:active,
+input:active,
+a:active,
+select:active,
+option:active,
+textarea:active table:active > *,
+label:active {
+  cursor: url("./assets/mouse_dog_after.png") 20 30, auto !important;
+}

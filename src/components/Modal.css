@@ -1,0 +1,156 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 5px;
+  gap: 1rem;
+}
+
+.modal-container {
+  width: 1000px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ff9b50;
+}
+.modal-span {
+  color: #ff9b50;
+  font-weight: 700;
+  flex-grow: 1;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.close-img {
+  position: relative;
+  bottom: 3px;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+}
+.modal-content {
+  display: flex;
+}
+
+.modal-imgBox,
+.modal-contentBox {
+  flex: 1;
+  position: relative;
+}
+
+.modal-contentBox {
+  padding: 2rem;
+}
+
+.modal-imgBox figure {
+  background-color: aliceblue;
+  max-height: 440px;
+}
+
+.modal-content-title,
+.modal-content-description {
+  margin-bottom: 10px;
+  min-height: 100px;
+}
+
+.modal-input,
+.modal-input2 {
+  padding: 10px;
+  width: 100%;
+  border: none;
+}
+.modal-input:focus,
+.modal-input2:focus {
+  outline: none;
+}
+
+.modal-input {
+  border-bottom: 1px solid #ff9b50;
+}
+
+.modal-input2 {
+  height: 300px;
+  text-align: start;
+  resize: none;
+  border-bottom: 1px solid #ff9b50;
+}
+
+.modal-content-title[contentEditable]:empty::before,
+.modal-content-description[contentEditable]:empty::before {
+  content: attr(placeholder);
+  color: #aaa;
+}
+
+.add-img-container {
+  background-color: #ff9b50;
+  color: white;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#imageFigure img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-chevron {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal-chevron-left {
+  left: 0px;
+  width: 75px;
+  height: 75px;
+}
+
+.modal-chevron-right {
+  right: 0px;
+  width: 75px;
+  height: 75px;
+}
+.image-indicators {
+  display: flex;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 70px;
+}
+
+.image-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.image-indicator.active {
+  background-color: #ff9b50;
+}

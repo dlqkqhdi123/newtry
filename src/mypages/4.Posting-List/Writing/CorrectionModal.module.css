@@ -1,0 +1,57 @@
+.writingbody {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+.poto {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.span {
+  width: 100%;
+  height: 40px;
+  background-color: #ffc26f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+/* //////// */
+
+.post {
+  padding: 4rem;
+  display: grid;
+  grid-template-rows: 9fr auto;
+  gap: 2rem;
+  width: 100%;
+  place-items: center;
+}
+
+/* ////내용//// */
+.wordBox {
+  border-bottom: 2px solid #ff9b50;
+  /* padding: 1.5rem 0; */
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+}
+.wordTitle {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #ff9b50;
+}
+
+.word_p {
+  padding-top: 10px;
+  height: 100%;
+}

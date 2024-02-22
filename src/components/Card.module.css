@@ -1,0 +1,8 @@
+.card {
+  overflow: hidden;
+  background-color: #f8ebd8;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  width: 100%;
+  height: 100px;
+}

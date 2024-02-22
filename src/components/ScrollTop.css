@@ -1,0 +1,39 @@
+@font-face {
+  font-family: LibreBaskerville;
+  src: url(../assets/font/Libre_Baskerville/LibreBaskerville-Regular.ttf)
+    format("truetype");
+  font-weight: normal;
+  font-size: normal;
+}
+
+.scroll-button {
+  width: 80px;
+  height: 80px;
+
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.scroll-button img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.scroll-button p {
+  position: absolute;
+  right: 18px;
+  bottom: 0;
+  color: #1c1b1f;
+
+  font-size: 24px;
+  font-family: LibreBaskerville;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+}

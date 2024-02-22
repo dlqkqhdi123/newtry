@@ -1,0 +1,275 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  cursor: default;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 5px;
+  gap: 1rem;
+}
+
+.figurebox {
+  padding: 0;
+  margin: 0;
+}
+.modal-container {
+  width: 1000px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ff9b50;
+}
+.modal-span {
+  color: #ff9b50;
+  font-weight: 700;
+  flex-grow: 1;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.close-img2 {
+  position: absolute;
+  top: 0;
+  left: 490px;
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+}
+.modal-content {
+  display: flex;
+}
+
+.modal-imgBox,
+.modal-contentBox {
+  flex: 1;
+  position: relative;
+  max-height: 500px;
+}
+
+.modal-contentBox {
+  padding: 2rem;
+}
+
+.modal-imgBox figure {
+  height: 500px;
+}
+
+.modal-content-title,
+.modal-content-description {
+  margin-bottom: 10px;
+  min-height: 100px;
+}
+.modal-content-titles {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ff9b50;
+}
+
+.modal-input,
+.modal-input2 {
+  padding: 10px;
+  width: 100%;
+  border: none;
+}
+.modal-input:focus,
+.modal-input2:focus {
+  outline: none;
+}
+
+.modal-input {
+  border-bottom: 1px solid #ff9b50;
+}
+
+.modal-input2 {
+  height: 300px;
+  text-align: start;
+  resize: none;
+  border-bottom: 1px solid #ff9b50;
+}
+
+.modal-content-title[contentEditable]:empty::before,
+.modal-content-description[contentEditable]:empty::before {
+  content: attr(placeholder);
+  color: #aaa;
+}
+
+.add-img-container {
+  background-color: #ff9b50;
+  color: white;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#imageFigure img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-chevron {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal-chevron-left {
+  left: 0px;
+  width: 75px;
+  height: 75px;
+}
+
+.modal-chevron-right {
+  right: 0px;
+  width: 75px;
+  height: 75px;
+}
+.image-indicators {
+  display: flex;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 70px;
+}
+
+.image-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.image-indicator.active {
+  background-color: #ff9b50;
+}
+
+.modaldata-title-icons {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.modaldata-titles-user {
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+.modaldata-titles {
+  display: flex;
+  height: 50px;
+}
+.icon-wrapper {
+  display: flex;
+  position: absolute;
+  right: 50px;
+}
+.icon-wrappers {
+  display: flex;
+  position: absolute;
+  right: 10px;
+}
+.profiles {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  bottom: 0;
+  left: 0px;
+}
+
+.modaldata-profile {
+  display: flex;
+  font-weight: 700;
+  font-size: 12px;
+}
+.modal-content-desc {
+  margin-top: 10px;
+}
+
+.modal-content-desc-title {
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  justify-content: space-between;
+}
+.title-uploadtime {
+  font-size: 14px;
+  font-weight: normal;
+  color: #666;
+}
+.modal-content-desc-content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #666;
+  border-bottom: 1px solid #ff9b50;
+  text-align: start;
+  min-height: 140px;
+  font-size: 14px;
+}
+.modal-content-comment {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.comment-input-container {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  margin: 0;
+  padding: 0;
+}
+
+.comment-input {
+  width: 80%;
+}
+.message-to-user {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 37px;
+}
+
+.several-function-wrapper {
+  display: flex;
+  gap: 1rem;
+  height: 40px;
+  margin-right: auto;
+}
+.mdbtn-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+.commentCountss {
+  position: absolute;
+  right: -18px;
+  bottom: -1px;
+}
+.likeCountss {
+  position: absolute;
+  right: -18px;
+  bottom: -1px;
+}

@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "title": "동물종합병원",
+    "address": "대전 중구 대종로 605",
+    "parking": "가능",
+    "tel": "555-1234",
+    "time": "24/7",
+    "field": "종합 의학",
+    "email": "info@generalhospital.com",
+    "rating": 4,
+    "latitude": 36.3354935001554,
+    "longitude": 127.416887702802,
+    "url": "http://www.example123.com",
+    "reviews": [
+      {
+        "user": "존 도우",
+        "comment": "좋은 서비스와 관심 있는 스태프!",
+        "rating": 5
+      },
+      {
+        "user": "제인 스미스",
+        "comment": "깨끗하고 잘 관리된 시설.",
+        "rating": 4
+      }
+    ],
+    "message": {
+      "user": "나",
+      "text": ""
+    }
+  },
+  {
+    "id": 2,
+    "title": "두근동물병원",
+    "address": "대전 중구 대종로594번길 18",
+    "parking": "불가능",
+    "tel": "555-5678",
+    "time": "오전 9시 - 오후 6시",
+    "field": "심장병",
+    "email": "info@specialtyclinic.com",
+    "rating": 3,
+    "latitude": 36.3353527622679,
+    "longitude": 127.41907059668,
+    "url": "http://www.sample456.com",
+    "reviews": [
+      {
+        "user": "데이비드 브라운",
+        "comment": "지식 있는 스태프, 다만 대기 시간이 조금 길어요.",
+        "rating": 3
+      },
+      {
+        "user": "사라 존슨",
+        "comment": "분위기가 친근하고 애완동물에 대한 좋은 보살핌.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "동물 외상센터",
+    "address": "대전 중구 선화서로 76",
+    "parking": "가능",
+    "tel": "555-9876",
+    "time": "오전 8시 - 오후 5시",
+    "field": "외과",
+    "email": "info@pediatriccare.com",
+    "rating": 2,
+    "latitude": 36.3303563292653,
+    "longitude": 127.4169436411,
+    "url": "http://www.demo789.com",
+    "reviews": [
+      {
+        "user": "마이크 안",
+        "comment": "응급 상황에서 빠르게 대응해주셔서 감사합니다.",
+        "rating": 4
+      },
+      {
+        "user": "앨리스 리",
+        "comment": "의료진들이 친절하고 전문적이에요.",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "동물 연구소",
+    "address": "대전 중구 목중로26번길 52",
+    "parking": "불가능",
+    "tel": "555-4321",
+    "time": "오전 10시 - 오후 7시",
+    "field": "정형 외과",
+    "email": "info@orthopedicinstitute.com",
+    "rating": 1,
+    "latitude": 36.3375878424054,
+    "longitude": 127.413330416181,
+    "url": "http://www.test101.com",
+    "reviews": [
+      {
+        "user": "리사 박",
+        "comment": "치료 결과에 만족하지 못했어요.",
+        "rating": 1
+      },
+      {
+        "user": "톰 존슨",
+        "comment": "시설이 깔끔하고 직원들이 친절해요.",
+        "rating": 2
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "웰니스동물병원",
+    "address": "대전 중구 목중로 2 ",
+    "parking": "가능",
+    "tel": "555-8765",
+    "time": "오전 8시 - 오후 4시",
+    "field": "내과",
+    "email": "info@womenshealth.com",
+    "rating": 5,
+    "latitude": 36.3348796862194,
+    "longitude": 127.413209405363,
+    "url": "http://www.mock234.com",
+    "reviews": [
+      {
+        "user": "이서현",
+        "comment": "최고의 의료 서비스를 제공합니다!",
+        "rating": 5
+      },
+      {
+        "user": "김태우",
+        "comment": "친절하고 전문적인 의료진들이 있어요.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "이빨튼튼동물병원",
+    "address": "대전 중구 대전천서로 529",
+    "parking": "가능",
+    "tel": "555-2345",
+    "time": "오전 9시 - 오후 5시",
+    "field": "치과",
+    "email": "info@dentalcareclinic.com",
+    "rating": 5,
+    "latitude": 36.3339824781791,
+    "longitude": 127.422793819547,
+    "url": "http://www.website567.com",
+    "reviews": [
+      {
+        "user": "박지원",
+        "comment": "치과 치료가 훌륭해요!",
+        "rating": 5
+      },
+      {
+        "user": "이동욱",
+        "comment": "청결하고 모든 직원들이 친절해요.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "정신 건강 동물병원",
+    "address": "대전 중구 대흥로111번길 30-18",
+    "parking": "가능",
+    "tel": "555-6789",
+    "time": "오전 8시 - 오후 6시",
+    "field": "정신과",
+    "email": "info@mentalhealthinstitute.com",
+    "rating": 4,
+    "latitude": 36.3246610525623,
+    "longitude": 127.424932485382,
+    "url": "http://www.portal890.com",
+    "reviews": [
+      {
+        "user": "박민지",
+        "comment": "좋은 상담 서비스를 받을 수 있었어요.",
+        "rating": 4
+      },
+      {
+        "user": "이승우",
+        "comment": "적극 추천합니다. 전문적이고 따뜻한 응대.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "암 동물병원",
+    "address": "대전 중구 중앙로 123",
+    "parking": "불가능",
+    "tel": "555-3456",
+    "time": "오전 10시 - 오후 8시",
+    "field": "종양학",
+    "email": "info@cancertreatment.com",
+    "rating": 3,
+    "latitude": 36.3280388039107,
+    "longitude": 127.423572936651,
+    "url": "http://www.link1234.com",
+    "reviews": [
+      {
+        "user": "김영철",
+        "comment": "전문적인 치료가 필요한 환경입니다.",
+        "rating": 3
+      },
+      {
+        "user": "이지현",
+        "comment": "의료진이 신속하고 친절해요.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "동물 전문 이비인후과",
+    "address": "대전 중구 중교로 9",
+    "parking": "가능",
+    "tel": "555-7890",
+    "time": "오전 8시 - 오후 4시",
+    "field": "이비인후과",
+    "email": "info@entclinic.com",
+    "rating": 2,
+    "latitude": 36.324479917011,
+    "longitude": 127.421010287951,
+    "url": "http://www.page5678.com",
+    "reviews": [
+      {
+        "user": "한지민",
+        "comment": "전문성이 떨어져요.",
+        "rating": 2
+      },
+      {
+        "user": "송중기",
+        "comment": "치료 결과에 만족하지 못했어요.",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "동물 재활 센터",
+    "address": "대전광역시 중구 중앙로 126",
+    "parking": "불가능",
+    "tel": "555-0123",
+    "time": "오전 9시 - 오후 6시",
+    "field": "재활",
+    "email": "info@rehabcenter.com",
+    "rating": 1,
+    "latitude": 36.3276960522504,
+    "longitude": 127.4241924206678,
+    "url": "http://www.address901.com",
+    "reviews": [
+      {
+        "user": "박서준",
+        "comment": "전문적인 치료가 필요한 환경입니다.",
+        "rating": 1
+      },
+      {
+        "user": "김태리",
+        "comment": "의료진이 훌륭하고 시설이 깔끔합니다.",
+        "rating": 2
+      }
+    ]
+  }
+]

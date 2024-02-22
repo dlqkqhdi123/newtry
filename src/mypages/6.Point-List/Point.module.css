@@ -1,0 +1,22 @@
+.pointbody {
+  display: flex;
+  flex-direction: column;
+}
+
+.pointsHeld {
+  padding: 10px;
+  font-weight: 700;
+}
+
+.score{
+/* font-size: 20px; */
+color: #ff9b50;
+}
+
+.annotation {
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  color: #ff9b50;
+}
+

@@ -1,0 +1,47 @@
+.comment {
+  display: flex;
+  width: 100%;
+}
+
+.comment-button {
+  background-color: #ff9b50;
+  color: white;
+  width: 70px;
+  height: 40px;
+  position: relative;
+  left: -8px;
+  top: 8px;
+}
+.comment-input {
+  height: 40px;
+  border-color: #ff9b50;
+}
+.comment-input:focus {
+  border: 2px solid #ff9b50;
+}
+.comment-users {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.profile-nickname {
+  font-weight: 700;
+  font-size: 12px;
+}
+.comment-content {
+  color: #666;
+}
+.comment-uploadTime {
+  margin-left: auto;
+}
+.commentBox {
+  max-height: 125px;
+  overflow-y: auto;
+}
+.delete-close-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 0px;
+  bottom: 4px;
+}
